@@ -3,9 +3,6 @@
 # Potentially time consuming computations. The following two main functions 
 # are written such that we can catch the inverse of a matrix. 
 
-# The first function, makeCacheMatrix, creates a special matrix 
-# object that can cache its inverse. 
-
 makeCacheMatrix <- function (x = matrix ()){ # a function with an argument x. 
         m <<- NULL # an internal variable m which is set NULL
         set <- function(y) { # subfunction "set" with an argument y. 
